@@ -1,0 +1,44 @@
+{
+  "feature_columns": [
+    "age",
+    "bmi",
+    "children",
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "numeric_features": [
+    "age",
+    "bmi",
+    "children"
+  ],
+  "categorical_features": [
+    "sex",
+    "smoker",
+    "region"
+  ],
+  "categories": {
+    "sex": [
+      "female",
+      "male"
+    ],
+    "smoker": [
+      "no",
+      "yes"
+    ],
+    "region": [
+      "northeast",
+      "northwest",
+      "southeast",
+      "southwest"
+    ]
+  },
+  "target": "charges",
+  "sklearn_version": "1.6.1",
+  "python_version": "3.13.18",
+  "test_metrics": {
+    "r2": 0.8961,
+    "mae": 2417.21,
+    "rmse": 4369.39
+  }
+}
